@@ -1,0 +1,214 @@
+<template>
+  <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
+    <notifications></notifications>
+
+    <side-bar
+      :background-color="sidebarBackground"
+      short-title="AT"
+      title="Academia"
+    >
+      <template slot="links">
+        <sidebar-item
+          :link="{
+            name: 'Dashboard',
+            icon: 'tim-icons icon-laptop',
+            path: '/dashboard',
+          }"
+        ></sidebar-item>
+
+        <sidebar-item
+          :link="{
+            name: 'Devices',
+            icon: 'tim-icons icon-light-3',
+            path: '/devices',
+          }"
+        >
+        </sidebar-item>
+
+        <sidebar-item
+          :link="{
+            name: 'Reports',
+            icon: 'tim-icons icon-notes',
+            path: '/reports',
+          }"
+        >
+        </sidebar-item>
+      </template>
+    </side-bar>
+
+    <!--Share plugin (for demo purposes). You can remove it if don't plan on using it-->
+    <!--<sidebar-share :background-color.sync="sidebarBackground"> </sidebar-share>-->
+
+    <div class="main-panel" :data="sidebarBackground">
+      <dashboard-navbar></dashboard-navbar>
+      <router-view name="header"></router-view>
+
+      <div :class="{ content: !isFullScreenRoute }" @click="toggleSidebar">
+        <zoom-center-transition :duration="1000" mode="out-in">
+          <!-- your content here -->
+          <nuxt></nuxt>
+        </zoom-center-transition>
+      </div>
+
+      <content-footer v-if="!isFullScreenRoute"></content-footer>
+    </div>
+  </div>
+</template>
+
+
+<script>
+/* eslint-disable no-new */
+import PerfectScrollbar from "perfect-scrollbar";
+import "perfect-scrollbar/css/perfect-scrollbar.css";
+import SidebarShare from "@/components/Layout/SidebarSharePlugin";
+function hasElement(className) {
+  return document.getElementsByClassName(className).length > 0;
+}
+
+function initScrollbar(className) {
+  if (hasElement(className)) {
+    new PerfectScrollbar(`.${className}`);
+  } else {
+    // try to init it later in case this component is loaded async
+    setTimeout(() => {
+      initScrollbar(className);
+    }, 100);
+  }
+}
+
+import DashboardNavbar from "@/components/Layout/DashboardNavbar.vue";
+import ContentFooter from "@/components/Layout/ContentFooter.vue";
+import DashboardContent from "@/components/Layout/Content.vue";
+import { SlideYDownTransition, ZoomCenterTransition } from "vue2-transitions";
+import mqtt from "mqtt";
+
+export default {
+  components: {
+    DashboardNavbar,
+    ContentFooter,
+    DashboardContent,
+    SlideYDownTransition,
+    ZoomCenterTransition,
+    SidebarShare,
+  },
+  data() {
+    return {
+      sidebarBackground: "blue", //vue|blue|orange|green|red|primary
+    };
+  },
+  computed: {
+    isFullScreenRoute() {
+      return this.$route.path === "/maps/full-screen";
+    },
+  },
+  methods: {
+    starMqttClient() {
+      const options = {
+        host: process.env.mqtt_host,
+        port: process.env.mqtt_port,
+        endpoint: "/mqtt",
+        clean: true,
+        connectTimeout: 5000,
+        reconnectPeriod: 5000,
+        // Certification Information
+        clientId:
+          "web_" +
+          this.$store.state.auth.userData.name +
+          "_" +
+          Math.floor(Math.random() * 1000000 + 1),
+        username: "superuser",
+        password: "superpass",
+      };
+
+      const subscribeTopic = "insert";
+      const connectUrl =
+        process.env.mqtt_prefix + options.host + ":" + options.port + options.endpoint;
+      try {
+        this.client = mqtt.connect(connectUrl, options);
+      } catch (error) {
+        console.log(error);
+      }
+
+      this.client.on("connect", () => {
+        console.log("Connection succeded!");
+
+        this.client.subscribe(subscribeTopic, { qos: 0 }, (err) => {
+          if (err) {
+            console.log("Error in subcription");
+            return;
+          }
+
+          console.log("Device subscription Success");
+        });
+      });
+
+      this.client.on("error", (error) => {
+        console.log("Connection failed", error);
+      });
+
+      this.client.on("reconnect", (error) => {
+        console.log("reconnecting", error);
+      });
+
+      this.client.on('message', (topic, message) => {
+        var info = JSON.parse(message.toString());
+        $nuxt.$emit(topic + info.name, info);
+      });
+
+    },
+    toggleSidebar() {
+      if (this.$sidebar.showSidebar) {
+        this.$sidebar.displaySidebar(false);
+      }
+    },
+    initScrollbar() {
+      let docClasses = document.body.classList;
+      let isWindows = navigator.platform.startsWith("Win");
+      if (isWindows) {
+        // if we are on windows OS we activate the perfectScrollbar function
+        initScrollbar("sidebar");
+        initScrollbar("main-panel");
+        initScrollbar("sidebar-wrapper");
+
+        docClasses.add("perfect-scrollbar-on");
+      } else {
+        docClasses.add("perfect-scrollbar-off");
+      }
+    },
+  },
+  mounted() {
+    this.initScrollbar();
+    this.starMqttClient();
+  },
+};
+</script>
+<style lang="scss">
+$scaleSize: 0.95;
+@keyframes zoomIn95 {
+  from {
+    opacity: 0;
+    transform: scale3d($scaleSize, $scaleSize, $scaleSize);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main-panel .zoomIn {
+  animation-name: zoomIn95;
+}
+
+@keyframes zoomOut95 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d($scaleSize, $scaleSize, $scaleSize);
+  }
+}
+
+.main-panel .zoomOut {
+  animation-name: zoomOut95;
+}
+</style>
