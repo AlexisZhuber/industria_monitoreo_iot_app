@@ -69,14 +69,13 @@ export default {
     {
       path: "~/components/",
       pathPrefix: false,
+      extensions: ["vue", "jsx"],
       pattern: `**/*.{vue,js,ts}`,
       ignore: ["~/components/index.ts"],
     },
   ],
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   /*
    ** Nuxt.js dev-modules
