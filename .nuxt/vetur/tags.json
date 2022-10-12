@@ -1,0 +1,245 @@
+{
+  "AnimatedNumber": {
+    "description": "Auto imported from components/AnimatedNumber.vue"
+  },
+  "Badge": {
+    "description": "Auto imported from components/Badge.vue"
+  },
+  "BaseAlert": {
+    "description": "Auto imported from components/BaseAlert.vue"
+  },
+  "BaseButton": {
+    "description": "Auto imported from components/BaseButton.vue"
+  },
+  "BaseDropdown": {
+    "description": "Auto imported from components/BaseDropdown.vue"
+  },
+  "BasePagination": {
+    "description": "Auto imported from components/BasePagination.vue"
+  },
+  "BaseProgress": {
+    "description": "Auto imported from components/BaseProgress.vue"
+  },
+  "BaseSwitch": {
+    "description": "Auto imported from components/BaseSwitch.vue"
+  },
+  "BaseTable": {
+    "description": "Auto imported from components/BaseTable.vue"
+  },
+  "CloseButton": {
+    "description": "Auto imported from components/CloseButton.vue"
+  },
+  "ImageUpload": {
+    "description": "Auto imported from components/ImageUpload.vue"
+  },
+  "Json": {
+    "description": "Auto imported from components/Json.vue"
+  },
+  "LoadingPanel": {
+    "description": "Auto imported from components/LoadingPanel.vue"
+  },
+  "Modal": {
+    "description": "Auto imported from components/Modal.vue"
+  },
+  "NavbarToggleButton": {
+    "description": "Auto imported from components/NavbarToggleButton.vue"
+  },
+  "Slider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
+  "Components": {
+    "description": "Auto imported from components/index.js"
+  },
+  "Calendar": {
+    "description": "Auto imported from components/Calendar/Calendar.vue"
+  },
+  "CalendarHeader": {
+    "description": "Auto imported from components/Calendar/CalendarHeader.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Cards/Card.vue"
+  },
+  "StatsCard": {
+    "description": "Auto imported from components/Cards/StatsCard.vue"
+  },
+  "Breadcrumb": {
+    "description": "Auto imported from components/Breadcrumb/Breadcrumb.vue"
+  },
+  "BreadcrumbItem": {
+    "description": "Auto imported from components/Breadcrumb/BreadcrumbItem.vue"
+  },
+  "RouteBreadcrumb": {
+    "description": "Auto imported from components/Breadcrumb/RouteBreadcrumb.vue"
+  },
+  "BarChart": {
+    "description": "Auto imported from components/Charts/BarChart.js"
+  },
+  "LineChart": {
+    "description": "Auto imported from components/Charts/LineChart.js"
+  },
+  "PieChart": {
+    "description": "Auto imported from components/Charts/PieChart.js"
+  },
+  "Config": {
+    "description": "Auto imported from components/Charts/config.js"
+  },
+  "Utils": {
+    "description": "Auto imported from components/Charts/utils.js"
+  },
+  "CountryMapCard": {
+    "description": "Auto imported from components/Dashboard/CountryMapCard.vue"
+  },
+  "TaskList": {
+    "description": "Auto imported from components/Dashboard/TaskList.vue"
+  },
+  "UserTable": {
+    "description": "Auto imported from components/Dashboard/UserTable.vue"
+  },
+  "ShoppingTable": {
+    "description": "Auto imported from components/ExtendedTables/ShoppingTable.vue"
+  },
+  "Collapse": {
+    "description": "Auto imported from components/Collapse/Collapse.vue"
+  },
+  "CollapseItem": {
+    "description": "Auto imported from components/Collapse/CollapseItem.vue"
+  },
+  "SweetAlertHeader": {
+    "description": "Auto imported from components/Headers/SweetAlertHeader.vue"
+  },
+  "Content": {
+    "description": "Auto imported from components/Layout/Content.vue"
+  },
+  "ContentFooter": {
+    "description": "Auto imported from components/Layout/ContentFooter.vue"
+  },
+  "DashboardLayout": {
+    "description": "Auto imported from components/Layout/DashboardLayout.vue"
+  },
+  "DashboardNavbar": {
+    "description": "Auto imported from components/Layout/DashboardNavbar.vue"
+  },
+  "LoadingMainPanel": {
+    "description": "Auto imported from components/Layout/LoadingMainPanel.vue"
+  },
+  "SidebarFixedToggleButton": {
+    "description": "Auto imported from components/Layout/SidebarFixedToggleButton.vue"
+  },
+  "SidebarSharePlugin": {
+    "description": "Auto imported from components/Layout/SidebarSharePlugin.vue"
+  },
+  "SidebarToggleButton": {
+    "description": "Auto imported from components/Layout/SidebarToggleButton.vue"
+  },
+  "BaseCheckbox": {
+    "description": "Auto imported from components/Inputs/BaseCheckbox.vue"
+  },
+  "BaseInput": {
+    "description": "Auto imported from components/Inputs/BaseInput.vue"
+  },
+  "BaseRadio": {
+    "description": "Auto imported from components/Inputs/BaseRadio.vue"
+  },
+  "IconCheckbox": {
+    "description": "Auto imported from components/Inputs/IconCheckbox.vue"
+  },
+  "TagsInput": {
+    "description": "Auto imported from components/Inputs/TagsInput.vue"
+  },
+  "BaseNav": {
+    "description": "Auto imported from components/Navbar/BaseNav.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/NotificationPlugin/Notification.vue"
+  },
+  "Notifications": {
+    "description": "Auto imported from components/NotificationPlugin/Notifications.vue"
+  },
+  "NotificationPlugin": {
+    "description": "Auto imported from components/NotificationPlugin/index.js"
+  },
+  "SideBar": {
+    "description": "Auto imported from components/SidebarPlugin/SideBar.vue"
+  },
+  "SidebarItem": {
+    "description": "Auto imported from components/SidebarPlugin/SidebarItem.vue"
+  },
+  "SidebarPlugin": {
+    "description": "Auto imported from components/SidebarPlugin/index.js"
+  },
+  "Tab": {
+    "description": "Auto imported from components/Tabs/Tab.vue"
+  },
+  "Tabs": {
+    "description": "Auto imported from components/Tabs/Tabs.vue"
+  },
+  "TimeLine": {
+    "description": "Auto imported from components/Timeline/TimeLine.vue"
+  },
+  "TimeLineItem": {
+    "description": "Auto imported from components/Timeline/TimeLineItem.vue"
+  },
+  "EditProfileForm": {
+    "description": "Auto imported from components/UserProfile/EditProfileForm.vue"
+  },
+  "UserCard": {
+    "description": "Auto imported from components/UserProfile/UserCard.vue"
+  },
+  "LoginForm": {
+    "description": "Auto imported from components/ValidationForms/LoginForm.vue"
+  },
+  "RangeValidationForm": {
+    "description": "Auto imported from components/ValidationForms/RangeValidationForm.vue"
+  },
+  "RegisterForm": {
+    "description": "Auto imported from components/ValidationForms/RegisterForm.vue"
+  },
+  "TypeValidationForm": {
+    "description": "Auto imported from components/ValidationForms/TypeValidationForm.vue"
+  },
+  "FirstStep": {
+    "description": "Auto imported from components/Wizard/FirstStep.vue"
+  },
+  "SecondStep": {
+    "description": "Auto imported from components/Wizard/SecondStep.vue"
+  },
+  "ThirdStep": {
+    "description": "Auto imported from components/Wizard/ThirdStep.vue"
+  },
+  "Wizard": {
+    "description": "Auto imported from components/Wizard/Wizard.vue"
+  },
+  "WizardTab": {
+    "description": "Auto imported from components/Wizard/WizardTab.vue"
+  },
+  "Throttle": {
+    "description": "Auto imported from components/Wizard/throttle.js"
+  },
+  "IotRespaldo": {
+    "description": "Auto imported from components/Widgets/IotRespaldo.vue"
+  },
+  "Iotbutton": {
+    "description": "Auto imported from components/Widgets/Iotbutton.vue"
+  },
+  "Iotcomplete": {
+    "description": "Auto imported from components/Widgets/Iotcomplete.vue"
+  },
+  "Iotindicator": {
+    "description": "Auto imported from components/Widgets/Iotindicator.vue"
+  },
+  "Iotswitch": {
+    "description": "Auto imported from components/Widgets/Iotswitch.vue"
+  },
+  "Rtnumberchart": {
+    "description": "Auto imported from components/Widgets/Rtnumberchart.vue"
+  },
+  "WorldMap": {
+    "description": "Auto imported from components/WorldMap/WorldMap.vue"
+  },
+  "SampleFooter": {
+    "description": "Auto imported from components/Layout/starter/SampleFooter.vue"
+  },
+  "SampleNavbar": {
+    "description": "Auto imported from components/Layout/starter/SampleNavbar.vue"
+  }
+}
