@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[41],{936:function(n,t,o){"use strict";o.r(t);var r={mounted:function(){$nuxt.$router.push("/dashboard")}},e=o(2),component=Object(e.a)(r,(function(){this._self._c;return this._m(0)}),[function(){var n=this._self._c;return n("div",{staticClass:"row"},[n("h3")])}],!1,null,null,null);t.default=component.exports}}]);
