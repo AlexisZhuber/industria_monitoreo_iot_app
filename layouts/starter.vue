@@ -3,13 +3,13 @@
     <notifications></notifications>
     <side-bar
       :background-color="sidebarBackground"
-      short-title="AT"
-      title="Academia de Tecnologia"
+      short-title="CM"
+      title="Condulimex"
     >
       <template slot-scope="props" slot="links">
         <sidebar-item
           :link="{
-            name: 'Academia',
+            name: 'Condulimex',
             icon: 'tim-icons icon-chart-pie-36',
             path: '/starter-page'
           }"

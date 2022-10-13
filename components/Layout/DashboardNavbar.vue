@@ -33,7 +33,7 @@
         <template
           slot="title"
         >
-          <div class="photo"><img src="img/17.jpg" /></div>
+          <div class="photo"><img src="img/condu_grande.png" /></div>
           <b class="caret d-none d-lg-block d-xl-block"></b>
           <p class="d-lg-none">Log out</p>
         </template>

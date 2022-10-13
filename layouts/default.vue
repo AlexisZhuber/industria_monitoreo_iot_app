@@ -4,8 +4,8 @@
 
     <side-bar
       :background-color="sidebarBackground"
-      short-title="AT"
-      title="Academia"
+      short-title="CM"
+      title="Condulimex"
     >
       <template slot="links">
         <sidebar-item

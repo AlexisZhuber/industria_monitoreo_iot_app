@@ -23,6 +23,7 @@ app.use(cors());
 //express routes
 app.use("/api", require("./routes/devices.js"));
 app.use("/api", require("./routes/users.js"));
+app.use("/api", require("./routes/emqxauthrules.js"));
 app.use("/api", require("./routes/dataprovider.js"));
 app.use("/api", require("./routes/webhooks.js"));
 app.use("/api", require("./routes/datareports.js"))
@@ -53,6 +54,8 @@ var uri =
   "/" +
   mongoDatabase;
 
+  //mongodb://devuser:devpassword@localhost:27017/iot
+
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
@@ -70,6 +73,9 @@ mongoose.connect(uri, options).then(
     console.log("\n");
   },
   (err) => {
+    console.log("\n");
+    console.log("URL: ".red)
+    console.log(uri.red);
     console.log("\n");
     console.log("******************************".red);
     console.log("   Mongo Connection Failed!   ".red);

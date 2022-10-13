@@ -6,7 +6,7 @@
           <img src="img//card-info.png" alt="" />
         </template>
         <br /><br /><br /><br />
-        <h1 class="text-dark">Academia de Tecnología</h1>
+        <h1 class="text-dark">Condulimex</h1>
         <div>
           <base-input
             name="email"

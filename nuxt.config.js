@@ -21,7 +21,7 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: "icon", type: "image/x-icon", href: "/icon.png" },
+      { rel: "icon", type: "image/x-icon", href: "/condu-logo.png" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800",

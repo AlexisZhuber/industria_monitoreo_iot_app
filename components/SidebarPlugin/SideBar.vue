@@ -3,7 +3,7 @@
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
         <a href="https://www.facebook.com/academiatecnologia" class="simple-text logo-mini">
-          <img src="img/17.jpg" alt="app-logo" />
+          <img src="img/condu-logo.png" alt="app-logo" />
         </a>
         <a href="https://www.facebook.com/academiatecnologia" class="simple-text logo-normal">
           {{ title }}
