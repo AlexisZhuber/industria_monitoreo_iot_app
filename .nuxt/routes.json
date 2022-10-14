@@ -3,36 +3,42 @@
     "name": "dashboard",
     "path": "/dashboard",
     "component": "/home/node/app/pages/dashboard.vue",
-    "chunkName": "pages/dashboard"
+    "chunkName": "pages/dashboard",
+    "_name": "_0a3c4d7d"
   },
   {
     "name": "devices",
     "path": "/devices",
     "component": "/home/node/app/pages/devices.vue",
-    "chunkName": "pages/devices"
+    "chunkName": "pages/devices",
+    "_name": "_ea9bb8f4"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/home/node/app/pages/login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_321a9f5c"
   },
   {
     "name": "reports",
     "path": "/reports",
     "component": "/home/node/app/pages/reports.vue",
-    "chunkName": "pages/reports"
+    "chunkName": "pages/reports",
+    "_name": "_5012f130"
   },
   {
     "name": "GeneralViews-NotFoundPage",
     "path": "/GeneralViews/NotFoundPage",
     "component": "/home/node/app/pages/GeneralViews/NotFoundPage.vue",
-    "chunkName": "pages/GeneralViews/NotFoundPage"
+    "chunkName": "pages/GeneralViews/NotFoundPage",
+    "_name": "_72af3810"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/node/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1d4b0d3b"
   }
 ]

@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"mqtt_prefix":"ws://","mqtt_host":"localhost","mqtt_port":"8083"}
+      env: {"mqtt_prefix":"ws://","mqtt_host":"3.233.99.84","mqtt_port":"8083"}
     }
     // Only set once
 
