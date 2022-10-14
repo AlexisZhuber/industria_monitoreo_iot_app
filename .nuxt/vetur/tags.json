@@ -59,6 +59,18 @@
   "RouteBreadcrumb": {
     "description": "Auto imported from components/Breadcrumb/RouteBreadcrumb.vue"
   },
+  "Calendar": {
+    "description": "Auto imported from components/Calendar/Calendar.vue"
+  },
+  "CalendarHeader": {
+    "description": "Auto imported from components/Calendar/CalendarHeader.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Cards/Card.vue"
+  },
+  "StatsCard": {
+    "description": "Auto imported from components/Cards/StatsCard.vue"
+  },
   "BarChart": {
     "description": "Auto imported from components/Charts/BarChart.js"
   },
@@ -74,30 +86,6 @@
   "Utils": {
     "description": "Auto imported from components/Charts/utils.js"
   },
-  "Card": {
-    "description": "Auto imported from components/Cards/Card.vue"
-  },
-  "StatsCard": {
-    "description": "Auto imported from components/Cards/StatsCard.vue"
-  },
-  "Calendar": {
-    "description": "Auto imported from components/Calendar/Calendar.vue"
-  },
-  "CalendarHeader": {
-    "description": "Auto imported from components/Calendar/CalendarHeader.vue"
-  },
-  "Collapse": {
-    "description": "Auto imported from components/Collapse/Collapse.vue"
-  },
-  "CollapseItem": {
-    "description": "Auto imported from components/Collapse/CollapseItem.vue"
-  },
-  "ShoppingTable": {
-    "description": "Auto imported from components/ExtendedTables/ShoppingTable.vue"
-  },
-  "SweetAlertHeader": {
-    "description": "Auto imported from components/Headers/SweetAlertHeader.vue"
-  },
   "CountryMapCard": {
     "description": "Auto imported from components/Dashboard/CountryMapCard.vue"
   },
@@ -106,6 +94,18 @@
   },
   "UserTable": {
     "description": "Auto imported from components/Dashboard/UserTable.vue"
+  },
+  "ShoppingTable": {
+    "description": "Auto imported from components/ExtendedTables/ShoppingTable.vue"
+  },
+  "Collapse": {
+    "description": "Auto imported from components/Collapse/Collapse.vue"
+  },
+  "CollapseItem": {
+    "description": "Auto imported from components/Collapse/CollapseItem.vue"
+  },
+  "SweetAlertHeader": {
+    "description": "Auto imported from components/Headers/SweetAlertHeader.vue"
   },
   "BaseCheckbox": {
     "description": "Auto imported from components/Inputs/BaseCheckbox.vue"
@@ -121,6 +121,9 @@
   },
   "TagsInput": {
     "description": "Auto imported from components/Inputs/TagsInput.vue"
+  },
+  "BaseNav": {
+    "description": "Auto imported from components/Navbar/BaseNav.vue"
   },
   "Content": {
     "description": "Auto imported from components/Layout/Content.vue"
@@ -155,15 +158,6 @@
   "NotificationPlugin": {
     "description": "Auto imported from components/NotificationPlugin/index.js"
   },
-  "BaseNav": {
-    "description": "Auto imported from components/Navbar/BaseNav.vue"
-  },
-  "Tab": {
-    "description": "Auto imported from components/Tabs/Tab.vue"
-  },
-  "Tabs": {
-    "description": "Auto imported from components/Tabs/Tabs.vue"
-  },
   "SideBar": {
     "description": "Auto imported from components/SidebarPlugin/SideBar.vue"
   },
@@ -173,17 +167,35 @@
   "SidebarPlugin": {
     "description": "Auto imported from components/SidebarPlugin/index.js"
   },
+  "EditProfileForm": {
+    "description": "Auto imported from components/UserProfile/EditProfileForm.vue"
+  },
+  "UserCard": {
+    "description": "Auto imported from components/UserProfile/UserCard.vue"
+  },
   "TimeLine": {
     "description": "Auto imported from components/Timeline/TimeLine.vue"
   },
   "TimeLineItem": {
     "description": "Auto imported from components/Timeline/TimeLineItem.vue"
   },
-  "EditProfileForm": {
-    "description": "Auto imported from components/UserProfile/EditProfileForm.vue"
+  "Tab": {
+    "description": "Auto imported from components/Tabs/Tab.vue"
   },
-  "UserCard": {
-    "description": "Auto imported from components/UserProfile/UserCard.vue"
+  "Tabs": {
+    "description": "Auto imported from components/Tabs/Tabs.vue"
+  },
+  "LoginForm": {
+    "description": "Auto imported from components/ValidationForms/LoginForm.vue"
+  },
+  "RangeValidationForm": {
+    "description": "Auto imported from components/ValidationForms/RangeValidationForm.vue"
+  },
+  "RegisterForm": {
+    "description": "Auto imported from components/ValidationForms/RegisterForm.vue"
+  },
+  "TypeValidationForm": {
+    "description": "Auto imported from components/ValidationForms/TypeValidationForm.vue"
   },
   "IotRespaldo": {
     "description": "Auto imported from components/Widgets/IotRespaldo.vue"
@@ -203,21 +215,6 @@
   "Rtnumberchart": {
     "description": "Auto imported from components/Widgets/Rtnumberchart.vue"
   },
-  "LoginForm": {
-    "description": "Auto imported from components/ValidationForms/LoginForm.vue"
-  },
-  "RangeValidationForm": {
-    "description": "Auto imported from components/ValidationForms/RangeValidationForm.vue"
-  },
-  "RegisterForm": {
-    "description": "Auto imported from components/ValidationForms/RegisterForm.vue"
-  },
-  "TypeValidationForm": {
-    "description": "Auto imported from components/ValidationForms/TypeValidationForm.vue"
-  },
-  "WorldMap": {
-    "description": "Auto imported from components/WorldMap/WorldMap.vue"
-  },
   "FirstStep": {
     "description": "Auto imported from components/Wizard/FirstStep.vue"
   },
@@ -235,6 +232,9 @@
   },
   "Throttle": {
     "description": "Auto imported from components/Wizard/throttle.js"
+  },
+  "WorldMap": {
+    "description": "Auto imported from components/WorldMap/WorldMap.vue"
   },
   "SampleFooter": {
     "description": "Auto imported from components/Layout/starter/SampleFooter.vue"

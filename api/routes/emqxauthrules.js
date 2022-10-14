@@ -11,7 +11,9 @@ router.post("/rule", async (req, res) => {
 
     const newRule = {
       username: name,
-      password: password
+      password: password,
+      subscribe: ["#"],
+      publish: ["#"]
     };
 
     const emqxauthrule = await Rule.create(newRule);

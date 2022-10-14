@@ -11,19 +11,6 @@
 
 
 /*!
- * Vue.js v2.7.12
- * (c) 2014-2022 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * vuex v3.6.2
- * (c) 2021 Evan You
- * @license MIT
- */
-
-
-/*!
  * @overview es6-promise - a tiny implementation of Promises/A+.
  * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
  * @license   Licensed under MIT license
@@ -700,6 +687,23 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 
+/*!
+
+ =========================================================
+ * Nuxt Black Dashboard PRO - v1.0.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/nuxt-black-dashboard-pro
+ * Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ * Coded by Creative Tim
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+
 /**
  * Checks if an event is supported in the current execution environment.
  *
@@ -717,17 +721,13 @@ PERFORMANCE OF THIS SOFTWARE.
 
 
 /*!
+ * Vue.js v2.7.12
+ * (c) 2014-2022 Evan You
+ * Released under the MIT License.
+ */
 
- =========================================================
- * Nuxt Black Dashboard PRO - v1.0.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/nuxt-black-dashboard-pro
- * Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
- * Coded by Creative Tim
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
  */
