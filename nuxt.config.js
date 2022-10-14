@@ -108,12 +108,15 @@ export default {
   serverMiddleware: {
     '/api': '~/api'
   },
+  buildDir: '_nuxt',
+  
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   /*
    ** Build configuration
    */
   build: {
+    publicPath: '_nuxt/dist/',
     transpile: [/^element-ui/],
     /*
      ** You can extend webpack config here
