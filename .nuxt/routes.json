@@ -1,0 +1,38 @@
+[
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/home/node/app/pages/dashboard.vue",
+    "chunkName": "pages/dashboard"
+  },
+  {
+    "name": "devices",
+    "path": "/devices",
+    "component": "/home/node/app/pages/devices.vue",
+    "chunkName": "pages/devices"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/node/app/pages/login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "reports",
+    "path": "/reports",
+    "component": "/home/node/app/pages/reports.vue",
+    "chunkName": "pages/reports"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage",
+    "path": "/GeneralViews/NotFoundPage",
+    "component": "/home/node/app/pages/GeneralViews/NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/node/app/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
